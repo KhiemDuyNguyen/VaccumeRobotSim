@@ -1,6 +1,11 @@
 # VaccumeRobotSim
 [Problem set on MIT edx Data Science course] Using Python and Pylab and pre-code program, design vaccum robot, environment, and different cleaning strategies so it take least times at possible to clean a desired portion of the room. 
 
+### Software
+A Python-based flatform integrated development environment and pylab will be needed. Version: 3.6.
+Recommend: Spyder by Anaconda
+
+### Background
 Simulation Overview
 iRobot is a company (started by MIT alumni and faculty) that sells the Roomba vacuuming robot (watch one of the product videos to see these robots in action). Roomba robots move around the floor, cleaning the area they pass over.
 
@@ -10,7 +15,7 @@ The following simplified model of a single robot moving in a square 5x5 room sho
 
 The robot starts out at some random position in the room, and with a random direction of motion. The illustrations below show the robot's position (indicated by a black dot) as well as its direction (indicated by the direction of the red arrowhead).
 
-
+<img src="Images/vacR1.png">
 
 Simulation Details
 Here are additional details about the simulation model. Read these carefully.
@@ -35,3 +40,11 @@ If a robot detects that it will hit the wall within the time-step, that time ste
 
 Termination
 The simulation ends when a specified fraction of the tiles in the room have been cleaned.
+
+### 
+
+### Result
+<img src="Images/VacR2.png">
+
+### License
+This project is licensed under the MIT License - see the LICENSE.md file for details
